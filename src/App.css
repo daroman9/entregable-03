@@ -1,0 +1,162 @@
+* {
+  box-sizing: border-box;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  background-color: #04323e;
+  padding: 30px 120px;
+}
+
+.attribute {
+  list-style: none;
+  margin-bottom: 5px;
+  text-align: right;
+}
+
+.button {
+  background: #3c3f3f;
+  border: none;
+  border-radius: 25px;
+  height: 35px;
+  width: 10%;
+}
+
+.button:hover {
+  cursor: pointer;
+  font-size: 16px;
+  height: 38px;
+  transition: 0.2s;
+  width: 12%;
+}
+
+.center {
+  padding-left: 30px;
+  padding-top: 300px;
+  width: 100%;
+}
+
+.column {
+  border-radius: 15px;
+  padding: 20px;
+  width: 1000px;
+}
+
+.column img {
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  width: 35%;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 15px;
+  width: 100%;
+}
+
+h1 {
+  font-size: 60px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+.location-container h2 {
+  font-size: 30px;
+  margin-bottom: 24px;
+}
+
+.location-info {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.list li {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  margin-left: 10px;
+}
+
+.non-resident {
+  font-size: 22px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.resident {
+  background: #3c3f3f;
+  border-radius: 15px;
+  display: flex;
+  height: 125px;
+  text-align: left;
+}
+
+.resident-name {
+  align-items: center;
+  font-weight: 700;
+  list-style: none;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  margin-right: 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.search {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("./images/BANNER-RICK-Y-MORTY.jpeg");
+  background-position-x: center;
+  display: flex;
+  flex-direction: row;
+  height: 350px;
+  margin-bottom: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.search input {
+  background-color: #04323e;
+  border: none;
+  border-radius: 10px;
+  height: 35px;
+  width: 50%;
+}
+
+.title {
+  margin-top: 30px;
+}
+
+@media (min-width: 576px) {
+  .resident-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media (min-width: 768px) {
+  .column {
+    width: 50%;
+  }
+
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 992px) {
+  .column {
+    width: 33.3333%;
+  }
+
+  .container {
+    max-width: 992px;
+  }
+}
